@@ -1,6 +1,6 @@
 name = "asdf_cxx_jll"
 uuid = "4f8305f1-6461-5f12-b534-9c962894ae19"
-version = "7.3.1+0"
+version = "7.3.2+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -19,5 +19,7 @@ JLLWrappers = "1.2.0"
 julia = "1.6"
 OpenSSL_jll = "3.0.10"
 Bzip2_jll = "1.0.8"
+Blosc2_jll = "201.1500.0"
+Blosc_jll = "1.21.1"
 Libdl = "1"
 Artifacts = "1"
