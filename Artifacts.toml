@@ -1,288 +1,174 @@
 [[asdf_cxx]]
 arch = "aarch64"
-git-tree-sha1 = "8427f39762bfe4fbadd8c1a63a840bb5d0f1cd1e"
+git-tree-sha1 = "115911335950595cf9863704e8b6e872f4672c64"
 os = "macos"
 
     [[asdf_cxx.download]]
-    sha256 = "90781b91641b46aaad6b7581e9ea39acf36ed291e28150f1c4d22e0d0014fea0"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.aarch64-apple-darwin.tar.gz"
-[[asdf_cxx]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "4df3ce3936f7561d4f4925b72df72ad3af67b4c0"
-libc = "glibc"
-os = "linux"
-
-    [[asdf_cxx.download]]
-    sha256 = "19b875e4536909c3600d1b0662cb051fe037d1adef9dc02ea4085f315206d459"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "a3cb3020416aac2e175ea38aa524e4f309f6f8699f358e00a5125ddd2effdf08"
+    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v8.0.1+0/asdf_cxx.v8.0.1.aarch64-apple-darwin.tar.gz"
 [[asdf_cxx]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "fb10ce9a6d7878301baae39ed5bbb6542f98c64f"
+git-tree-sha1 = "fffe4f664aef6e120220b97cd68cf0473e45aeb1"
 libc = "glibc"
 os = "linux"
 
     [[asdf_cxx.download]]
-    sha256 = "d7fc14def8524df43c13dbc64b324b0f1499f68f67833e11d975abc634db3367"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.aarch64-linux-gnu-cxx11.tar.gz"
-[[asdf_cxx]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "6bd297bf1b1889b9bb993a34a3deba88f46612ce"
-libc = "musl"
-os = "linux"
-
-    [[asdf_cxx.download]]
-    sha256 = "fdbc3cf89eb4ac94a02fff428530bcc32e71a3ab662dd5813d63dd0cfe74e96f"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.aarch64-linux-musl-cxx03.tar.gz"
+    sha256 = "fc5933303c8f1686cf96b5bb2ec29f2ec0920405cf9c97aca86194c902251a4a"
+    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v8.0.1+0/asdf_cxx.v8.0.1.aarch64-linux-gnu-cxx11.tar.gz"
 [[asdf_cxx]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "d16dc5491f1331903f0cf97d9672c7ce07dfebb8"
+git-tree-sha1 = "4cdb4fa017d87dda219ce1bc3c1535f6b2248daf"
 libc = "musl"
 os = "linux"
 
     [[asdf_cxx.download]]
-    sha256 = "b212ce770406b9b7530a3f68186037266430d83d8cb6f710ebd3b37c1138c7bb"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.aarch64-linux-musl-cxx11.tar.gz"
+    sha256 = "fb2321f2a6a8540073e623d9499690ff859b025981ed9361557a2be7cbdff2a3"
+    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v8.0.1+0/asdf_cxx.v8.0.1.aarch64-linux-musl-cxx11.tar.gz"
 [[asdf_cxx]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "05460ffff39f736749a39e1128a17ead1189ec7e"
-libc = "glibc"
-os = "linux"
-
-    [[asdf_cxx.download]]
-    sha256 = "2bd06bac28664cdb3cd674b1f410ed5f6b73fe3f50963ea08b6049222e94fa81"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.armv6l-linux-gnueabihf-cxx03.tar.gz"
-[[asdf_cxx]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "38372c07df8bc7750889ed261daa122ae21882b1"
-libc = "glibc"
-os = "linux"
-
-    [[asdf_cxx.download]]
-    sha256 = "94c36eb06fe7f1fd1fff8745853063cbd9a276c278f1a12098c2d33206787893"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.armv6l-linux-gnueabihf-cxx11.tar.gz"
-[[asdf_cxx]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "a0affc4bf84e517bb0466a954567740f44922c29"
-libc = "musl"
-os = "linux"
-
-    [[asdf_cxx.download]]
-    sha256 = "ad6e97e4ef28fcb71cb8a9f4299fb04dfc7f083b380aac1742fb70894f6a58c8"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.armv6l-linux-musleabihf-cxx03.tar.gz"
-[[asdf_cxx]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "580a4fa42c199fca2658ba2d67906bb106336d1c"
-libc = "musl"
-os = "linux"
-
-    [[asdf_cxx.download]]
-    sha256 = "45640457ce9425afbdf76a960350d1ce00f5b0435732f47feece408d71aec62e"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.armv6l-linux-musleabihf-cxx11.tar.gz"
-[[asdf_cxx]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "fcab6d633c251289d598df38ef1ee74daf8a9ae4"
-libc = "glibc"
-os = "linux"
-
-    [[asdf_cxx.download]]
-    sha256 = "827d3615ce509131081a85e0f6f654988b0db40e6843979e2965538895b2a30e"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.armv7l-linux-gnueabihf-cxx03.tar.gz"
-[[asdf_cxx]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "6cd8be722020386ae13235ec0a04b2576d6e24ad"
-libc = "glibc"
-os = "linux"
-
-    [[asdf_cxx.download]]
-    sha256 = "ff0521fd8bb4cc1be203cd2f8ef7fab5c6628d950fd2c8960e4c24134f5f9e20"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.armv7l-linux-gnueabihf-cxx11.tar.gz"
-[[asdf_cxx]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "ef0d5d844ba625899a438b68441b97ae7212500c"
-libc = "musl"
-os = "linux"
-
-    [[asdf_cxx.download]]
-    sha256 = "1feb4b30d36f647e2034f03c709512878261f3e74ebc36687e7f3e085b54f073"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.armv7l-linux-musleabihf-cxx03.tar.gz"
-[[asdf_cxx]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "793a184b242f30e14d0653505d13d7427140364e"
-libc = "musl"
-os = "linux"
-
-    [[asdf_cxx.download]]
-    sha256 = "1a53b712c5fb78a73cf7939773a3332e1828772a07cddd435ea79ca5bad3a9ed"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.armv7l-linux-musleabihf-cxx11.tar.gz"
-[[asdf_cxx]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "8e9ef90b2602070e094f5fe3e4169abba70d01ae"
-libc = "glibc"
-os = "linux"
-
-    [[asdf_cxx.download]]
-    sha256 = "09341bbd612f45b6751fbea9a7dcbad195be5835ced663084d12e6fc37b43ef7"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.i686-linux-gnu-cxx03.tar.gz"
-[[asdf_cxx]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "81be1d2c48440e8dbd7625630694d36875202af0"
-libc = "glibc"
-os = "linux"
-
-    [[asdf_cxx.download]]
-    sha256 = "73cc3993dfb6d53fc8d24f0c18340168c33adb9e65d42d79ab97b016ac2cb0e7"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.i686-linux-gnu-cxx11.tar.gz"
-[[asdf_cxx]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "ef1bbe72624f347b01a4975edd2992aa4e093839"
-libc = "musl"
-os = "linux"
-
-    [[asdf_cxx.download]]
-    sha256 = "b4b8a4868a4a8efc46c1c8b5b122fbb0e48d47d868c931e8e77e1b6474514e80"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.i686-linux-musl-cxx03.tar.gz"
-[[asdf_cxx]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "41cc3560d9f2f5673cf1156313a1d37f9d305c1e"
-libc = "musl"
-os = "linux"
-
-    [[asdf_cxx.download]]
-    sha256 = "5833976f90c16e12e373385b9a093381efb224c3fa417c3b7b3622af47fe2227"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.i686-linux-musl-cxx11.tar.gz"
-[[asdf_cxx]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "2950dbba3f6883276e25d2a23bcd1ba0cfacd799"
-os = "windows"
-
-    [[asdf_cxx.download]]
-    sha256 = "a7c09be1084569e041179d1db01fe883fc8593d7dd304773e5ee16ebd690d592"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.i686-w64-mingw32-cxx03.tar.gz"
-[[asdf_cxx]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "9b5d316d356d5799b42d319d268cd35655101ef3"
-os = "windows"
-
-    [[asdf_cxx.download]]
-    sha256 = "d286efbcca450f9e9431c16ea05654bfe34b5bfdb8fc4c13fc872f2afb706aa5"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.i686-w64-mingw32-cxx11.tar.gz"
-[[asdf_cxx]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "a4400547e590ae17fb013c780b51362b683a0798"
-libc = "glibc"
-os = "linux"
-
-    [[asdf_cxx.download]]
-    sha256 = "56504ceebd2b15c1e279e828ca1b037cd4534b840fa11d1dd7c3de98fce3ee4a"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.powerpc64le-linux-gnu-cxx03.tar.gz"
-[[asdf_cxx]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "0fa86c3a31486bca37d47dd231209ff8e1dd2fbe"
-libc = "glibc"
-os = "linux"
-
-    [[asdf_cxx.download]]
-    sha256 = "df1a2297c32715cbd884e297a763e575b2aa7e7db93b5954145253d656cd4756"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.powerpc64le-linux-gnu-cxx11.tar.gz"
-[[asdf_cxx]]
-arch = "x86_64"
-git-tree-sha1 = "05f7d92e9e6d72f7daf0225092c2c5956b1cdf7a"
-os = "macos"
-
-    [[asdf_cxx.download]]
-    sha256 = "b1c97816252a2f3b9da9452ecaf18022fed4ed30a9f63c3d93de11b3df16eca5"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.x86_64-apple-darwin.tar.gz"
-[[asdf_cxx]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "2a88324990d537c93a23e5af7e11c05d55a94c42"
-libc = "glibc"
-os = "linux"
-
-    [[asdf_cxx.download]]
-    sha256 = "8a5e0ffaed8cc6ae7d2bee31929ba703fdb65b073d1f5068e6a76386892c5d15"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.x86_64-linux-gnu-cxx03.tar.gz"
-[[asdf_cxx]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "2deaf8c523bf1061ec5fa9a5ed6b01781a52d098"
-libc = "glibc"
-os = "linux"
-
-    [[asdf_cxx.download]]
-    sha256 = "79454f174b0b808f7f30bbc9341466f65c7d0a340f6f89bd9b5533fe504d4679"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.x86_64-linux-gnu-cxx11.tar.gz"
-[[asdf_cxx]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "38bf7fb0648cce83e79f468b3dc2f52e10363796"
-libc = "musl"
-os = "linux"
-
-    [[asdf_cxx.download]]
-    sha256 = "8bb3b8346da75e4118aaafe6e709b1426984eb5701084d6f7516fe16263db444"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.x86_64-linux-musl-cxx03.tar.gz"
-[[asdf_cxx]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "c47625105e0d04e4dae86767e2e807bea6240c58"
-libc = "musl"
-os = "linux"
-
-    [[asdf_cxx.download]]
-    sha256 = "abb7a39c3740c5fac11ecb3b12ccaa9fd1f2b05daf44441fa9e7abc63d638cc1"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.x86_64-linux-musl-cxx11.tar.gz"
-[[asdf_cxx]]
-arch = "x86_64"
-git-tree-sha1 = "9a417b22bcbe493b735e2baa483ab222ba7be1e0"
+arch = "aarch64"
+git-tree-sha1 = "2f8e72e8a3c1d7f6ef264f01901ebe1790f4c05e"
 os = "freebsd"
 
     [[asdf_cxx.download]]
-    sha256 = "7546a472828f6ad087f5c680d90c30f0625470594a843d5d3ebe0f77ee2d8d94"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "b0f2763d2e192d1cf358a98a7a31a9ee3e554bdefe2c001093feff905f45ae01"
+    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v8.0.1+0/asdf_cxx.v8.0.1.aarch64-unknown-freebsd.tar.gz"
 [[asdf_cxx]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "b204164894f38f3947e8325d36f40a10d70b9a71"
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7d4931ac9d95fed8ef6e35dcd69e73d597b82d77"
+libc = "glibc"
+os = "linux"
+
+    [[asdf_cxx.download]]
+    sha256 = "092c8ec6ff364ef89c30a72aded8b27446d9f3540a8835f0957f96e9e85d9446"
+    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v8.0.1+0/asdf_cxx.v8.0.1.armv6l-linux-gnueabihf-cxx11.tar.gz"
+[[asdf_cxx]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6093c19435032fa11abe0a4dba3c2c6ba38b5439"
+libc = "musl"
+os = "linux"
+
+    [[asdf_cxx.download]]
+    sha256 = "275860680499bceb45349811378cc0411a8a84cc96ab804007ba1867f1d2c2e4"
+    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v8.0.1+0/asdf_cxx.v8.0.1.armv6l-linux-musleabihf-cxx11.tar.gz"
+[[asdf_cxx]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "edc777fe8c0eef8a73b2765e2c89ef774fb88ebc"
+libc = "glibc"
+os = "linux"
+
+    [[asdf_cxx.download]]
+    sha256 = "786f847c94facbd82551d7050a7b280ce4ec6403eead6349a823b460c6da9424"
+    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v8.0.1+0/asdf_cxx.v8.0.1.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[asdf_cxx]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "02d3ed6dbe8f8b501fb5715d7d361feadfa0fd06"
+libc = "musl"
+os = "linux"
+
+    [[asdf_cxx.download]]
+    sha256 = "a6c39bbf6e262acc9d3e6c8f28410a6ed6b06f2beca5844dd07701f04a7b7e67"
+    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v8.0.1+0/asdf_cxx.v8.0.1.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[asdf_cxx]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "521f3df39f06a26bd5ade124194296fd98a07c3e"
+libc = "glibc"
+os = "linux"
+
+    [[asdf_cxx.download]]
+    sha256 = "4dacb6464f8708e6442a53fb2d3c79c940ee95bb4e8c6cdf74424097fa8ec881"
+    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v8.0.1+0/asdf_cxx.v8.0.1.i686-linux-gnu-cxx11.tar.gz"
+[[asdf_cxx]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "51f39b4f99609c6c48f2d200409c2606ba77d071"
+libc = "musl"
+os = "linux"
+
+    [[asdf_cxx.download]]
+    sha256 = "a066ce2a914813d1752ea783906333998ad3319414c8a74166f55e389785a001"
+    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v8.0.1+0/asdf_cxx.v8.0.1.i686-linux-musl-cxx11.tar.gz"
+[[asdf_cxx]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0a96c5b35d26e938f9565985b2bd3aa4ffb900c7"
 os = "windows"
 
     [[asdf_cxx.download]]
-    sha256 = "13c43f235797426bbf399373b7ccb870c8a81286be8316ad3e81e44adf56d5e1"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "e1a19e08fe191719346bc8727c9e203e7bcb0f4c04d22b487bf8c65f8f32a7d5"
+    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v8.0.1+0/asdf_cxx.v8.0.1.i686-w64-mingw32-cxx11.tar.gz"
+[[asdf_cxx]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "cb128eba7651f8456bdde22fb737d6285e24f3a7"
+libc = "glibc"
+os = "linux"
+
+    [[asdf_cxx.download]]
+    sha256 = "2c14b10b160b24fe4d1df39d738ac2ba7e09ad31bc9d5789187bb27ebc3ca7a3"
+    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v8.0.1+0/asdf_cxx.v8.0.1.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[asdf_cxx]]
+arch = "riscv64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e51c13d47edd0f1b3d870e4b3ede3ef765808e45"
+libc = "glibc"
+os = "linux"
+
+    [[asdf_cxx.download]]
+    sha256 = "0f8c2130697b825be2984684122494c6e8888613d9cdf844980f693685bdf61d"
+    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v8.0.1+0/asdf_cxx.v8.0.1.riscv64-linux-gnu-cxx11.tar.gz"
+[[asdf_cxx]]
+arch = "x86_64"
+git-tree-sha1 = "f62a911166f781e77ee689df547f61852013a959"
+os = "macos"
+
+    [[asdf_cxx.download]]
+    sha256 = "140f549a3feb4c7ff0f1aab26b7cca62a1a4d045f1dba38b126965aa53c4813f"
+    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v8.0.1+0/asdf_cxx.v8.0.1.x86_64-apple-darwin.tar.gz"
 [[asdf_cxx]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "b8811d115351753037efac874b06edf66ac660c4"
+git-tree-sha1 = "914f7bdd9cec355dcd260a13d29924131f1fac0c"
+libc = "glibc"
+os = "linux"
+
+    [[asdf_cxx.download]]
+    sha256 = "b9b2fcc1a6a12017f06240a8f443f41ad7d17c4d2fc66a3f68d4f3a5368ab368"
+    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v8.0.1+0/asdf_cxx.v8.0.1.x86_64-linux-gnu-cxx11.tar.gz"
+[[asdf_cxx]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7e398834fe97aa16c4ce80e68df75633895ea7ed"
+libc = "musl"
+os = "linux"
+
+    [[asdf_cxx.download]]
+    sha256 = "51197e1fe6692343057f97b36157fc305da229750986f7a265ab616c81f487d5"
+    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v8.0.1+0/asdf_cxx.v8.0.1.x86_64-linux-musl-cxx11.tar.gz"
+[[asdf_cxx]]
+arch = "x86_64"
+git-tree-sha1 = "b41873fd1b327e17a4329bf5e87ce43020be323d"
+os = "freebsd"
+
+    [[asdf_cxx.download]]
+    sha256 = "6598f423f07c04fc0c5a58ffb5698d535d798b38cc931f125515e547cde083a7"
+    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v8.0.1+0/asdf_cxx.v8.0.1.x86_64-unknown-freebsd.tar.gz"
+[[asdf_cxx]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3622acd46e851b0c2c167e1b54adc31ac28090c3"
 os = "windows"
 
     [[asdf_cxx.download]]
-    sha256 = "e07748d6470297fb9732e5cbf4a84e959d64e745150ec293232c74843a6f5f84"
-    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v7.3.2+0/asdf_cxx.v7.3.2.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "c44712cfe1f9f72e13b63171a012822bbd8961e26f6f84c8aada9157e3b4c4d2"
+    url = "https://github.com/JuliaBinaryWrappers/asdf_cxx_jll.jl/releases/download/asdf_cxx-v8.0.1+0/asdf_cxx.v8.0.1.x86_64-w64-mingw32-cxx11.tar.gz"

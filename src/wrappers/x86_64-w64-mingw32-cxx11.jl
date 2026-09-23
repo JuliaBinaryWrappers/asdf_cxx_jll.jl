@@ -4,6 +4,7 @@ export asdf_copy, asdf_demo, asdf_demo_compression, asdf_demo_external, asdf_dem
 using Blosc2_jll
 using Blosc_jll
 using Bzip2_jll
+using Lz4_jll
 using OpenSSL_jll
 using Zlib_jll
 using Zstd_jll
@@ -17,7 +18,7 @@ JLLWrappers.@declare_executable_product(asdf_demo_external)
 JLLWrappers.@declare_executable_product(asdf_demo_large)
 JLLWrappers.@declare_executable_product(asdf_ls)
 function __init__()
-    JLLWrappers.@generate_init_header(Blosc2_jll, Blosc_jll, Bzip2_jll, OpenSSL_jll, Zlib_jll, Zstd_jll, yaml_cpp_jll)
+    JLLWrappers.@generate_init_header(Blosc2_jll, Blosc_jll, Bzip2_jll, Lz4_jll, OpenSSL_jll, Zlib_jll, Zstd_jll, yaml_cpp_jll)
     JLLWrappers.@init_library_product(
         libasdf_cxx,
         "bin\\libasdf-cxx.dll",
